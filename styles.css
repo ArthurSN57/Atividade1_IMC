@@ -1,0 +1,39 @@
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo {
+    width: 100%;
+    text-align: center;
+}
+
+#formulario {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+}
+
+#resultadoContainer {
+    display: none;
+    flex-direction: column;
+}
+
+#resultadoTitulo {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#resultadoIMC {
+    text-align: center;
+    background-color: #fff;
+    border: transparent;
+}
+
+#resultadoCategoria {
+    text-align: center;
+    background-color: #fff;
+    border: transparent;
+}

@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <noscript>O Javascript está desabilitado em seu navegador.</noscript>
+    <script src="script.js"></script>
+
+    <h2 id="titulo">Calculadora de IMC</h2>
+    <form action="." method="get" id="formulario">
+        <label>Peso:</label>
+        <input type="text" name="peso" id="peso" placeholder="Digite seu peso"/>
+        <br/>
+        <label>Altura:</label>
+        <input type="text" name="altura" id="altura" placeholder="Digite sua altura"-/>
+        <br/>
+        <button type="button" id="botaoCalcular">Calcular</button>
+
+        <br/>
+        <div id="resultadoContainer">
+            <label id="resultadoTitulo">Resultado:</label>
+            <input id="resultadoIMC" disabled/>
+            <img id="categoriaIMC"/>
+            <input id="resultadoCategoria" disabled/>
+        </div>
+    </form>
 </body>
 </html>
